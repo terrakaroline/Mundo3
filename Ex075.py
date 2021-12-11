@@ -12,7 +12,7 @@ for position, i in enumerate(tup):
     if i == 9:
         c += 1
     if i == 3:
-        print(f"O numero 3 aparece na posição {position}")
+        print(f"O numero 3 aparece na posição {position + 1}")
     if i % 2 == 0:
         print(f"{i} é um número par", end=" ")
         print(" ")
